@@ -2,4 +2,4 @@ from django.db import models
 
 
 class Todo(models.Model):
-    pass
+    text = models.CharField(max_length=30)
